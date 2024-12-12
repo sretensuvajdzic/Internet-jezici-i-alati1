@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recenzija</title>
+    <link rel="icon" href="../slike/logo.jpg" type="slike/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <br>
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Početna</a></li>
+            <li><a href="onama.html">O nama</a></li>
+            <li><a href="meni.html">Meni</a></li>
+            <li><a href="recenzija.html">Ostavite recenziju</a></li>
+        </ul>
+    </div>
+
+    <br>
+
+    <h2> Ako su vam se svideli naši kolači ostavite recenziju</h2>
+
+    <form>
+        <p> Ime: </p>
+        <input type="text" name="Ime" required>
+
+        <p> Prezime: </p>
+        <input type="text" name="Prezime" required>
+
+        <p> Pol: </p>
+        <input type="radio" name="Pol"> Muško
+        <input type="radio" name="Pol"> Žensko
+
+        <p> E-mail: </p>
+        <input type="email" name="email" placeholder="primer@primer.com" required>
+
+        <p> Telefon: </p>
+        <input type="tel" name="Telefon" required>
+
+        <p> Koji su vaši utisci na kolače: </p>
+        <textarea name="message" rows="15" cols="30" placeholder="ovde upišite komentar"> </textarea>
+
+        <p> Zašto birate baš nas: </p>
+        <input type="radio" name="biranje"> Kolači
+        <input type="radio" name="biranje"> Enterijer
+        <input type="radio" name="biranje"> Dobra lokacija
+        <input type="radio" name="biranje"> Atmosfera
+        <input type="radio" name="biranje"> Prijatnost osoblja
+        
+        <br><br>
+
+        <button ><input id="posalji" type="submit" value="Pošalji"></button>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(131, 197, 131);
+}
+
+@font-face {
+    font-family: fontić;
+    src: url(fontić/PlaywriteHRLijeva-VariableFont_wght.ttf);
+}
+
+h1{
+    margin-top: 5px;
+    text-align: center;
+}
+
+#pocetna-h1{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 70px;
+    font-family: fontić;
+}
+
+h2{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    width: 24.95%;
+    height: 34px;
+    background-color: rgb(93, 148, 88);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul li{
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px;
+}
+
+.nav ul li a:hover{
+    color: white;
+    background-color: rgb(136, 190, 192);
+    transition: 0.5s;
+}
+
+.dugme{
+    display: flex;
+    width: 150px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    font-size: larger;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.dugme a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px 52px;
+}
+
+.dugme a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.dugme:hover{
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.p1{
+    border: 3px dotted ;
+    border-radius: 15px;
+    padding: 10px 3px;
+    margin: 0 55px;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(155, 218, 155);
+    animation: color 1s infinite;
+}
+
+@keyframes color{
+    from{border-color: pink;}
+    50%{border-color: hotpink;}
+    to{border-color: pink;}
+}
+
+#p1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+#p1 a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+#pocetna-img{
+    margin-top: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#pocetna-img1{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url("Slike/bajadera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+}
+
+#pocetna-img2{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url("Slike/enterijer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+}
+
+#pocetna-img3{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url("Slike/terasa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+}
+
+#pocetna-img4{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: url("Slike/crnac bez jaja.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+}
+
+#O-nama-img{
+    margin: 50px auto;
+    background-image: url(Slike/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 460px;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.meni{
+    margin: 3px auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 50%;
+    height: 640px;
+    display: block;
+    column-count: 2;
+    padding: 10px auto;
+    background-color: rgb(114, 185, 114);
+}
+
+.meni img{
+    display: block ;
+    margin: 10px auto;
+    padding: 5px auto;
+    border-radius: 15px;
+}
+
+.meni p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: large;
+}
+
+#meni-img{
+    border:  1px solid transparent ;
+    margin: 10px auto;
+    display: block;
+}
+
+form{
+    margin: 10px auto;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+form input{
+    background-color: rgb(116, 187, 116);
+    border-radius: 7px;
+    padding: 0 5px;
+    margin: 3px auto;
+}
+
+form textarea{
+    background-color: rgb(116, 187, 116);
+    border-radius: 15px;
+    padding: 5px 7px;
+}
+
+form p{
+    text-decoration: underline;
+    margin: 3px auto;
+}
+
+form button{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    font-size: larger;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+form button:hover{
+    transition: 0.5s;
+    border-radius: 45%;
+}
+
+#posalji{
+    background-color: white;
+    color: black;
+    border: none;
+}
